@@ -1,36 +1,37 @@
 angular.module('portalApp')
 .controller('restaurantInformationCtrl', ['$scope', function ($scope) {
 	
-	// mock data
+	// restaurant list - hardcoded
 	$scope.items = [
 		{
-			title:'Sushi',
-			tags: ['tag A', 'tag B', 'tag C'],
-			details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+			title:'East Side Marios',
+			tags: ['Take-Out'],
+			details: 'Menu: \n test',
+            schedule: "9 - 5"
 		},
 		{
-			title:'Chinese Restaurant',
-			tags: ['tag D', 'tag E', 'tag F'],
+			title:'Wild Wing',
+			tags: ['Take-Out'],
 			details: 'Mauris cursus, sapien et malesuada ultrices, purus sapien iaculis tellus, quis semper magna est at leo.'
 		},
 		{
-			title:'Tim Hortons',
-			tags: ['tag A', 'tag H'],
+			title:'Swiss Chalet',
+			tags: ['Take-Out', 'Fast Food', 'Sit-Down'],
 			details: 'Donec id quam eu odio feugiat sagittis. Duis a tempus neque. Praesent elementum quis ante quis commodo. Sed tincidunt aliquet dolor sit amet laoreet. '
 		},
 		{
-			title:'Item 4',
-			tags: ['tag I'],
+			title:'Manchu Wok',
+			tags: ['Take-out'],
 			details: 'Proin sem quam, rutrum id ante id, scelerisque tempor quam. Curabitur pharetra turpis at sem placerat, non vehicula ligula tincidunt.'
 		},
 		{
-			title:'Item 5',
-			tags: ['tag C', 'tag K', 'tag B'],
+			title:'Spring Rolls',
+			tags: ['Take-out', 'Fast food'],
 			details: 'Mauris nec ultricies metus. Cras et dictum justo. Nam a ullamcorper dolor. Cras fringilla metus vel facilisis vehicula.'
 		},
 		{
-			title:'Item 6',
-			tags: ['tag A', 'tag B', 'tag C'],
+			title:'',
+			tags: [''],
 			details: 'Curabitur scelerisque lorem risus, in luctus orci hendrerit non. Praesent quis tellus dapibus dolor consectetur volutpat.'
 		}
 	];
