@@ -97,20 +97,30 @@ angular.module('portalApp')
         {
             title:'Mudies',
             tags: ['Sit-Down', 'Fast food'],
-            menu: 'http://www.uwmenu.com/#r5',
-            shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
+            details:  "This is a great place to meet your friends!"+
+                      "The aroma of fresh baked breads and pastries from our"+
+                      "in-house UW Bakery will surely make you take a deep"+
+                      "breath. Mudie’s offers a large selection of vegetarian"+
+                      "foods, grab n’ go items, salad bar, grill items,"+
+                      "made-to-order deli sandwiches and pitas, full breakfast,"+
+                      "and convenience foods. A hot entrée item and side dishes"+
+                      "are available every lunch and dinner hour.",
+            schedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm',
+            menu: 'http://www.uwmenu.com/#r5'
         },
         {
             title:'Party Plus',
             tags: ['Sit-Down', 'Fast food'],
             menu: 'http://www.uwmenu.com/#r23',
-            shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
+            schedule: "Monday-Friday: 7:00am - 10:00pm"+
+                       "Weekends: 8:00am - 6:00pm"
         },   
 		{
             title:'REVelation',
             tags: ['Sit-Down', 'Fast food'],
             menu: 'http://www.uwmenu.com/#r7',
-            shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
+            schedule: "Monday-Firday: 7:00am - 10:00pm"+
+                       "Weekends: 8:00am - 6:00pm"
         }
 
 
