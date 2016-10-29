@@ -46,9 +46,9 @@ angular.module('portalApp')
 			schedule: '11:30 - 10, Fri: 11:30 - 11, Sun: 11:30 - 9'
 		},
         {
-			title:'East Side Marios',
+			title:'East Side Mario\'s',
 			tags: ['Take-Out'],
-			details: '',
+			details: 'East Side Mario\'s is a Canadian chain of casual dining restaurants, managed by its parent holding company Prime Restaurants, which operates in Canada and the United States. The restaurant specializes in Italian-American cuisine.',
             schedule: '11 am - 11pm everyday',
             menu:'http://www.eastsidemarios.com/menu/main/starters/'
 		},
@@ -61,19 +61,19 @@ angular.module('portalApp')
 		{
 			title:'Swiss Chalet',
 			tags: ['Take-Out', 'Fast Food', 'Sit-Down'],
-			details: 'Donec id quam eu odio feugiat sagittis. Duis a tempus neque. Praesent elementum quis ante quis commodo. Sed tincidunt aliquet dolor sit amet laoreet. '
+			details: 'Swiss Chalet is a Canadian chain of casual dining restaurants founded in 1954 in Toronto. As of 2008, there are over 200 Swiss Chalet restaurants in Canada.'
 		},
 		{
 			title:'Manchu Wok',
 			tags: ['Take-out'],
-			details: 'Proin sem quam, rutrum id ante id, scelerisque tempor quam. Curabitur pharetra turpis at sem placerat, non vehicula ligula tincidunt.'
+			details: 'Counter-serve chain specializing in build-your-own stir-fries & other classic Chinese dishes'
 		},
 		{
 			title:'Spring Rolls',
 			tags: ['Take-out', 'Fast food'],
             schedule: '',
             menu: 'http://www.springrolls.ca/menu.php',
-			details: 'Mauris nec ultricies metus. Cras et dictum justo. Nam a ullamcorper dolor. Cras fringilla metus vel facilisis vehicula.'
+			details: 'Where You Can Enjoy Best, Delicious And Sizzling Food Dining With Your Loved Ones.'
 		},
 		{
 			title:'China Legend',
@@ -91,19 +91,19 @@ angular.module('portalApp')
         {
             title:'Mudies',
             tags: ['Sit-Down', 'Fast food'],
-            details: 'Menue: http://www.uwmenu.com/#r5',
+            menu: 'http://www.uwmenu.com/#r5',
             shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
         },
         {
             title:'Party Plus',
             tags: ['Sit-Down', 'Fast food'],
-            details: 'Menue: http://www.uwmenu.com/#r23',
+            menu: 'http://www.uwmenu.com/#r23',
             shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
         },   
 		{
             title:'REVelation',
             tags: ['Sit-Down', 'Fast food'],
-            details: 'Menue: http://www.uwmenu.com/#r7',
+            menu: 'http://www.uwmenu.com/#r7',
             shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
         }
 
