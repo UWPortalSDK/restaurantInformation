@@ -118,28 +118,25 @@ angular.module('portalApp')
             schedule: '11:30am - 2pm then 5pm-10pm M-Thurs., 11:30am - 2pm then 5pm-10:30pm F-Sat, 4-9pm Sun',
 			details: 'Casual restaurant with classic Indian dishes, a bar serving cocktails & a weekday lunch buffet.',
             menu: 'http://empressofindia.ca/menu/main-menu/appetizers'
-		}
-                {
+		},
+        {
             title:'Mudies',
-            tags: ['Sit-Down', 'Fast food']
-            details: 'Menue:' 'http://www.uwmenu.com/#r5'
-            shedule: 'Monday-Firday: 7:00am - 10:00pm'
-                     'Weekends: 8:00am - 6:00pm'
+            tags: ['Sit-Down', 'Fast food'],
+            details: 'Menue: http://www.uwmenu.com/#r5',
+            shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
         },
         {
             title:'Party Plus',
-            tags: ['Sit-Down', 'Fast food']
-            details: 'Menue:' 'http://www.uwmenu.com/#r23'
-            shedule: 'Monday-Firday: 7:00am - 10:00pm'
-                     'Weekends: 8:00am - 6:00pm'
+            tags: ['Sit-Down', 'Fast food'],
+            details: 'Menue: http://www.uwmenu.com/#r23',
+            shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
         },   
 		{
             title:'REVelation',
-            tags: ['Sit-Down', 'Fast food']
-            details: 'Menue:' 'http://www.uwmenu.com/#r7'
-            shedule: 'Monday-Firday: 7:00am - 10:00pm'
-                     'Weekends: 8:00am - 6:00pm'
-        },
+            tags: ['Sit-Down', 'Fast food'],
+            details: 'Menue: http://www.uwmenu.com/#r7',
+            shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
+        }
 
 
 	];
