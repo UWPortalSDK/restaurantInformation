@@ -56,28 +56,34 @@ angular.module('portalApp')
 			title:'Wild Wing',
 			tags: ['Take-Out'],
 			details: 'Mauris cursus, sapien et malesuada ultrices, purus sapien iaculis tellus, quis semper magna est at leo.',
-			schedule: ""
+			schedule: 'M - Thurs: 11am to 11pm, F-Sat: 11am to 12am, Sun: 12pm to 10pm',
+            menu: 'http://www.wildwingrestaurants.com/wp-content/uploads/2015/11/WW-TakeOutMenu-ON.pdf'
         },
 		{
 			title:'Swiss Chalet',
 			tags: ['Take-Out', 'Fast Food', 'Sit-Down'],
-			details: 'Swiss Chalet is a Canadian chain of casual dining restaurants founded in 1954 in Toronto. As of 2008, there are over 200 Swiss Chalet restaurants in Canada.'
+			menu: 'https://www.swisschalet.com/menu',
+            schedule: 'M - Sat: 11:30am - 10pm, Sun: 11am - 9:30pm',
+            details: 'Swiss Chalet is a Canadian chain of casual dining restaurants founded in 1954 in Toronto. As of 2008, there are over 200 Swiss Chalet restaurants in Canada.'
 		},
 		{
 			title:'Manchu Wok',
 			tags: ['Take-out'],
+            menu: 'http://manchuwok.com/menu/',
+            schedule: '10Am - 8Pm everyday',
 			details: 'Counter-serve chain specializing in build-your-own stir-fries & other classic Chinese dishes'
 		},
 		{
 			title:'Spring Rolls',
 			tags: ['Take-out', 'Fast food'],
-            schedule: '',
+            schedule: 'Sun - Thurs: 11am - 10pm, F-Sat.: 11am - 11pm',
             menu: 'http://www.springrolls.ca/menu.php',
 			details: 'Where You Can Enjoy Best, Delicious And Sizzling Food Dining With Your Loved Ones.'
 		},
 		{
 			title:'China Legend',
 			tags: ['Take-out', 'Sit-Down'],
+            menu: 'http://www.chinalegend.ca/menu.asp',
             schedule: '11am - 10pm M-Thurs., 11am - 10:30pm F, 12-10:30pm S - Sun',
 			details: 'Located in the beautiful city of Waterloo, our restaurant has been dedicated to offering the most memorable dining experience for you.'
 		},
