@@ -33,6 +33,48 @@ angular.module('portalApp')
 			title:'',
 			tags: [''],
 			details: 'Curabitur scelerisque lorem risus, in luctus orci hendrerit non. Praesent quis tellus dapibus dolor consectetur volutpat.'
+		},
+        {
+			title:'Aunty\'s Kitchen',
+			tags: ['Sit-in'],
+			details: 'Informal counter-serve nook providing familiar Indian & Canadian comfort eats in a minimalist space.',
+			menu: 'http://www.auntyskitchen.ca/catering-1/',
+			schedule: '11:30 - 11, Sun: 1-10'
+		},
+		{
+			title:'Jack\'s Family Restaurant',
+			tags: ['Sit-in'],
+			details: 'Spacious establishment serving an array of standard homestyle dishes in a contemporary interior.',
+			menu: 'http://www.jacksfamilyrestaurant.ca/',
+			schedule: '7-9, Sun: 7-8'
+		},
+		{
+			title:'Bhima\'s Warung',
+			tags: ['Sit-in'],
+			details: 'Garden tables & creative Southeast Asian fare featuring Indonesian, Vietnamese & Thai dishes.',
+			menu: 'http://www.bhimaswarung.com/menu',
+			schedule: '5-9'
+		},
+        {
+			title:'Crystal Palace Restaurant',
+			tags: ['Sit-in'],
+			details: 'Roomy, informal establishment with classic Chinese fare, combo meals & a lunch buffet.',
+			menu: 'https://www.just-eat.ca/restaurants-crystal-palace/menu?utm_source=crystalpalacemenu.ca&utm_medium=referral&utm_campaign=b2b',
+			schedule: '11-10, Tues: Closed'
+		},
+        {
+			title:'Mediterraneo Restaurant',
+			tags: ['Sit-in'],
+			details: 'Colourful booth-lined cafe offering familiar Greek & Mediterranean meals for lunch & dinner.',
+			menu: 'http://www.mediterraneokw.com/menu.php',
+			schedule: '11:30 - 2:30, 5 - 10, Sat: 11:30 - 10, Sun: 5-10'
+		},
+        {
+			title:'Marbles Restaurant',
+			tags: ['Sit-in'],
+			details: 'Comfy eatery serving a diverse menu of mains like ratatouille, burgers, steak & raw vegan pad Thai.',
+			menu: 'https://marblesuptown.com/menu-dinner.html',
+			schedule: '11:30 - 10, Fri: 11:30 - 11, Sun: 11:30 - 9'
 		}
 	];
 	
