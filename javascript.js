@@ -14,7 +14,7 @@ angular.module('portalApp')
 			details: 'Mauris cursus, sapien et malesuada ultrices, purus sapien iaculis tellus, quis semper magna est at leo.'
 		},
 		{
-			title:'Item 3',
+			title:'Tim Hortons',
 			tags: ['tag A', 'tag H'],
 			details: 'Donec id quam eu odio feugiat sagittis. Duis a tempus neque. Praesent elementum quis ante quis commodo. Sed tincidunt aliquet dolor sit amet laoreet. '
 		},
