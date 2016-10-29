@@ -105,22 +105,24 @@ angular.module('portalApp')
                       "made-to-order deli sandwiches and pitas, full breakfast,"+
                       "and convenience foods. A hot entrée item and side dishes"+
                       "are available every lunch and dinner hour.",
-            schedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm',
+            schedule: 'Monday-Firday: 7:00am - 8:00pm\nWeekends: 8:00am - 6:00pm',
             menu: 'http://www.uwmenu.com/#r5'
         },
         {
             title:'Party Plus',
             tags: ['Sit-Down', 'Fast food'],
+            details: 'One of the most delicious in uwaterloo ever! Do not miss it.',
             menu: 'http://www.uwmenu.com/#r23',
-            schedule: "Monday-Friday: 7:00am - 10:00pm"+
+            schedule: "Monday-Friday: 7:00am - 8:00pm"+
                        "Weekends: 8:00am - 6:00pm"
         },   
 		{
             title:'REVelation',
             tags: ['Sit-Down', 'Fast food'],
+            details: 'Meet your friends and have a fantastic meal at the same time. Our stir-fry meals will entice your taste buds, made-to-order deli sandwiches will be hard to resist, fantastic hot entrées will lure you, and a great full breakfast will get your day off to a great start. A vegetarian hot entrée is available every lunch and dinner plus there’s a large selection of grab n’ go items to ensure you can always find something to eat.',
             menu: 'http://www.uwmenu.com/#r7',
-            schedule: "Monday-Firday: 7:00am - 10:00pm"+
-                       "Weekends: 8:00am - 6:00pm"
+            schedule: "Monday-Firday: 7:00am - 8:00pm"+
+                      "Weekends: 8:00am - 6:00pm"
         }
 
 
