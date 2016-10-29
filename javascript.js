@@ -4,7 +4,7 @@ angular.module('portalApp')
 	// mock data
 	$scope.items = [
 		{
-			title:'Sushi Bar',
+			title:'Sushi',
 			tags: ['tag A', 'tag B', 'tag C'],
 			details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
 		},
