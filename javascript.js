@@ -119,6 +119,29 @@ angular.module('portalApp')
 			details: 'Casual restaurant with classic Indian dishes, a bar serving cocktails & a weekday lunch buffet.',
             menu: 'http://empressofindia.ca/menu/main-menu/appetizers'
 		}
+                {
+            title:'Mudies',
+            tags: ['Sit-Down', 'Fast food']
+            details: 'Menue:' 'http://www.uwmenu.com/#r5'
+            shedule: 'Monday-Firday: 7:00am - 10:00pm'
+                     'Weekends: 8:00am - 6:00pm'
+        },
+        {
+            title:'Party Plus',
+            tags: ['Sit-Down', 'Fast food']
+            details: 'Menue:' 'http://www.uwmenu.com/#r23'
+            shedule: 'Monday-Firday: 7:00am - 10:00pm'
+                     'Weekends: 8:00am - 6:00pm'
+        },   
+		{
+            title:'REVelation',
+            tags: ['Sit-Down', 'Fast food']
+            details: 'Menue:' 'http://www.uwmenu.com/#r7'
+            shedule: 'Monday-Firday: 7:00am - 10:00pm'
+                     'Weekends: 8:00am - 6:00pm'
+        },
+
+
 	];
 	
 	// Show main view in the first column as soon as controller loads
