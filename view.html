@@ -1,6 +1,6 @@
 <!-- WIDGET SEARCH BLOCK --> 
 <widget-search 
-	 label="What do you seek, padawan?" 
+	 label="Which restaurant do you want to dine in?" 
 	 placeholder="Type in a search term you must" 
 	 search-results-title="Behold"
 	 data="model" 
@@ -8,7 +8,7 @@
 	 fields="["title","details"]">
 	<widget-filter 
 			fields="['category']" 
-			filters="[{value:'1',text:'Number 1'},{value:'2',text:'Number 2'}]">
+			filters="[{value:'Sit-Down',text:'Sit-Down'},{value:'Fast',text:'Fast Food'}, {value:'Take-out',text:'Take-out'}]">
 	</widget-filter>
 	<widget-searching>
 		<widget-list list="item in searchResults track by item.title" show-items="3">
