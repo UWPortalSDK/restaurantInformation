@@ -91,19 +91,19 @@ angular.module('portalApp')
         {
             title:'Mudies',
             tags: ['Sit-Down', 'Fast food'],
-            details: 'http://www.uwmenu.com/#r5',
+            menu: 'http://www.uwmenu.com/#r5',
             shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
         },
         {
             title:'Party Plus',
             tags: ['Sit-Down', 'Fast food'],
-            details: 'http://www.uwmenu.com/#r23',
+            menu: 'http://www.uwmenu.com/#r23',
             shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
         },   
 		{
             title:'REVelation',
             tags: ['Sit-Down', 'Fast food'],
-            details: 'http://www.uwmenu.com/#r7',
+            menu: 'http://www.uwmenu.com/#r7',
             shedule: 'Monday-Firday: 7:00am - 10:00pm\nWeekends: 8:00am - 6:00pm'
         }
 
