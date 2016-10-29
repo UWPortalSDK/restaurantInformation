@@ -55,7 +55,7 @@ angular.module('portalApp')
 		{
 			title:'Wild Wing',
 			tags: ['Take-Out'],
-			details: 'Mauris cursus, sapien et malesuada ultrices, purus sapien iaculis tellus, quis semper magna est at leo.',
+			details: 'Chain of family restaurant franchises across Ontario featuring chicken wings in a wide variety of flavours, as well as ribs, fries and salads.',
 			schedule: 'M - Thurs: 11am to 11pm, F-Sat: 11am to 12am, Sun: 12pm to 10pm',
             menu: 'http://www.wildwingrestaurants.com/wp-content/uploads/2015/11/WW-TakeOutMenu-ON.pdf'
         },
@@ -124,5 +124,5 @@ angular.module('portalApp')
 		// Make the item that user clicked available to the template
 		$scope.detailsItem = item;		
 		$scope.portalHelpers.showView('restaurantInformationDetails.html', 2);
-	}
+	};
 }]);
